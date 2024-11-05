@@ -1,6 +1,5 @@
 import streamlit as st
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 from PIL import Image
 import google.generativeai as genai
 import cv2
