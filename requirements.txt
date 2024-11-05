@@ -5,4 +5,4 @@ google-generativeai
 opencv-python-headless
 numpy
 SpeechRecognition
-PyAudio
+pyaudio
