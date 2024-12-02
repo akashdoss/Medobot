@@ -115,7 +115,7 @@ uploaded_image = st.file_uploader("Upload Medicine Image", type=["png", "jpg", "
 
 # If the user uploads an image
 if uploaded_image is not None:
-    st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
+    st.image(uploaded_image, caption="Uploaded Image", use_container_width=True)
     image = Image.open(uploaded_image)
     preprocessed_image = preprocess_image(image)
     extracted_medicine_name = extract_medicine_name(preprocessed_image)
