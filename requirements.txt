@@ -1,8 +1,9 @@
-streamlit
-pytesseract
-Pillow
-google-generativeai
-opencv-python-headless
-numpy
-SpeechRecognition
-
+streamlit==1.40.2
+pytesseract==0.3.13
+Pillow==10.0.0  # Downgrade for potential compatibility
+google-generativeai==0.8.3
+opencv-python-headless==4.10.0.84
+numpy<2  # Match mediapipe's requirement
+SpeechRecognition==3.11.0
+PyAudio==0.2.14
+protobuf<5,>=4.25.3
