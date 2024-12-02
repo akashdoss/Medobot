@@ -7,3 +7,4 @@ numpy<2  # Match mediapipe's requirement
 SpeechRecognition==3.11.0
 PyAudio==0.2.14
 protobuf<5,>=4.25.3
+pip == 24.3.1
